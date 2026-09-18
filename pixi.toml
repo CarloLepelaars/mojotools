@@ -1,0 +1,19 @@
+[workspace]
+name = "mojotools"
+version = "0.1.0"
+description = "Basic tools to make your Mojo code easier and more maintainable."
+authors = ["Carlo Lepelaars <info@carlolepelaars.nl>"]
+channels = [
+  "https://conda.modular.com/max",
+  "https://repo.prefix.dev/modular-community",
+  "conda-forge",
+]
+platforms = ["osx-arm64", "linux-64", "linux-aarch64"]
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+mojo = ">=1.1.0"
+
+[tasks]
+test = "mojo -I src tests/test.mojo"

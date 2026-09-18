@@ -1,1 +1,1 @@
-uv run mojo -I src tests/test.mojo
+pixi run test
