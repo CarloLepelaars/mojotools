@@ -1,1 +1,1 @@
-uv run mojo tests/test_basics.mojo
+uv run mojo tests/all.mojo

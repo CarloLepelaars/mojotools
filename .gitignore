@@ -1,3 +1,6 @@
+# Generated test runner
+tests/all.mojo
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

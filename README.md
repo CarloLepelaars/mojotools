@@ -2,8 +2,8 @@
 
 Basic tools to make your Mojo code easier and more maintainable.
 
-## Tests: 
+## Tests
 
 ```bash
-uv run mojo tests/test_basics.mojo
+./quality.sh
 ```
