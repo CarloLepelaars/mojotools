@@ -1,10 +1,13 @@
 from std.testing import assert_false, assert_true
-from mojotools.ops import eq, ge, gt, is_none, is_some, le, lt, neq, same_type
+from mojotools.ops import *
 
 
 def test_eq_neq() raises:
     assert_true(eq(1, 1))
     assert_false(eq(1, 2))
+
+
+def test_neq() raises:
     assert_true(neq(1, 2))
     assert_false(neq(1, 1))
 
@@ -22,3 +25,6 @@ def test_cmp() raises:
 def test_optional() raises:
     assert_true(is_none[Int](None) and is_some(Optional(1)))
     assert_false(is_none(Optional(1)) or is_some[Int](None))
+
+
+comptime tests = __functions_in_module()

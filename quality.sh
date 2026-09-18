@@ -1,1 +1,1 @@
-uv run mojo tests/all.mojo
+uv run mojo -I src tests/test.mojo

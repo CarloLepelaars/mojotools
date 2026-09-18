@@ -8,3 +8,6 @@ def test_ifnone_none() raises:
 
 def test_ifnone_some() raises:
     assert_equal(ifnone(Optional(2), 1), 2)
+
+
+comptime tests = __functions_in_module()
