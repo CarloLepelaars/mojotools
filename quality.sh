@@ -1,0 +1,1 @@
+uv run mojo tests/test_basics.mojo

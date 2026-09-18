@@ -1,0 +1,12 @@
+[project]
+name = "mojotools"
+version = "0.1.0"
+description = "Basic tools to make your Mojo code easier and more maintainable."
+readme = "README.md"
+authors = [
+    { name = "Carlo Lepelaars", email = "info@carlolepelaars.nl" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "mojo>=1.1.0",
+]
