@@ -32,3 +32,12 @@ include = ["mojotools"]
 
 [tool.nbdev] 
 export_procs = ["mojotools.mojo_export:MojoExport"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[tool.pixi.pypi-dependencies]
+mojotools = { path = ".", editable = true }
+
+[tool.pixi.tasks]
