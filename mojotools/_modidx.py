@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://CarloLepelaars.github.io',
                 'git_url': 'https://github.com/CarloLepelaars/mojotools',
                 'lib_path': 'mojotools'},
-  'syms': {'mojotools.core': {'mojotools.core.foo': ('core.html#foo', 'mojotools/core.py')}}}
+  'syms': { 'mojotools.mojoexporter': { 'mojotools.mojoexporter.MojoExport': ('mojoexporter.html#mojoexport', 'mojotools/mojoexporter.py'),
+                                        'mojotools.mojoexporter.MojoExport.end': ( 'mojoexporter.html#mojoexport.end',
+                                                                                   'mojotools/mojoexporter.py'),
+                                        'mojotools.mojoexporter.mojo': ('mojoexporter.html#mojo', 'mojotools/mojoexporter.py')}}}

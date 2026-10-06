@@ -30,4 +30,5 @@ version = {attr = "mojotools.__version__"}
 [tool.setuptools.packages.find]
 include = ["mojotools"]
 
-[tool.nbdev]
+[tool.nbdev] 
+export_procs = ["mojotools.mojo_export:MojoExport"]
