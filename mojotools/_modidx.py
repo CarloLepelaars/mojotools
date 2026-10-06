@@ -8,4 +8,6 @@ d = { 'settings': { 'branch': 'main',
   'syms': { 'mojotools.mojoexporter': { 'mojotools.mojoexporter.MojoExport': ('mojoexporter.html#mojoexport', 'mojotools/mojoexporter.py'),
                                         'mojotools.mojoexporter.MojoExport.end': ( 'mojoexporter.html#mojoexport.end',
                                                                                    'mojotools/mojoexporter.py'),
-                                        'mojotools.mojoexporter.mojo': ('mojoexporter.html#mojo', 'mojotools/mojoexporter.py')}}}
+                                        'mojotools.mojoexporter.mojo': ('mojoexporter.html#mojo', 'mojotools/mojoexporter.py'),
+                                        'mojotools.mojoexporter.synth_main': ( 'mojoexporter.html#synth_main',
+                                                                               'mojotools/mojoexporter.py')}}}
