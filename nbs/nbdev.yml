@@ -1,0 +1,14 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "mojotools"
+  site-url: "https://CarloLepelaars.github.io/mojotools"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/CarloLepelaars/mojotools"
+
+format-links:
+  - html
+  - format: commonmark
+    text: Markdown

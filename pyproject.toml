@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mojotools"
+dynamic = ["version"]
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+authors = [{name = "Solveit", email = "nobody@fast.ai"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/CarloLepelaars/mojotools"
+Documentation = "https://CarloLepelaars.github.io/mojotools/"
+
+[project.entry-points.nbdev]
+mojotools = "mojotools._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "mojotools.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["mojotools"]
+
+[tool.nbdev]
